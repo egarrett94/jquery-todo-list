@@ -24,7 +24,7 @@ var addListItem = function () {
 	})
 	listItemCounter++;
 
-	if (listItemCounter >= 7) {
+	if (listItemCounter >= 7 && $(window).width() > 700 ) {
 		$('li').attr('class', 'twoColumn');
 	} else {
 		$('li').attr('class', 'null');

@@ -3,6 +3,7 @@ body {
 	background-size: cover;
 	background-attachment: fixed;
 	font-family: 'Reenie Beanie', cursive;
+	color: #3d3f42;
 }
 
 h1 {
@@ -108,11 +109,41 @@ ul.sortme li.placeholder {
 }
 
 @media (max-width: 600px) {
+	h1 {
+		font-size: 45px;
+	}
+
+	li {
+		font-size: 25px;
+	}
+
+	#trogdor {
+		width: 350px;
+	}
+
+	#doodlebob {
+		right: -70px;
+	}
+
 	#textEntry {
-		margin: 0 auto;
+		width: 200px;
+		top: 120px;
+		font-size: 13px;
+		height: 30px;
 	}
 
 	#subButton {
-		margin: 0 auto;
+		top: 120px;
+		padding: 5px 20px;
 	}
+
+	.listContainer {
+		width: 300px;
+		margin: 0 auto;
+		position: absolute;
+		padding-left: 200px;
+		padding-top: -55px;
+	}
+
+
 }
